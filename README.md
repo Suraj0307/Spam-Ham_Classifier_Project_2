@@ -13,7 +13,7 @@ The main goal is to classify the message type as Spam or Ham.
 
 
 
-## Text pre-processing in V2 Columns:
+## Text pre-processing in V2 Column:
  ####                              Text Preprocessing is a main step in NLP projects, Steps I did are
 ####                                  1)Converting the message into lower case.
 ####                                  2)Avoiding punctuation character and stopwords which might be present in the messages.
