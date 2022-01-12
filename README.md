@@ -6,7 +6,7 @@ The increased number of unsolicited emails known as spam has necessitated the de
 The main goal is to predict the fares of the flights based on different factors available in the dataset.
 
 ## Data Collection :
-                The data is collected from UCI .
+####                The data is collected from UCI .
 ####                  The data has 4 columns V1,V2,V3,V4
 ####                  V1 tells us the message type and V2 column is for message while V3 and V4 are not important.
 ####                  Link: https://archive.ics.uci.edu/ml/datasets/sms+spam+collection  
@@ -14,7 +14,7 @@ The main goal is to predict the fares of the flights based on different factors 
 
 
 ## Text pre-processing in V2 Columns:
-                               Text Preprocessing is a main step in NLP projects, Steps I did are
+ ####                              Text Preprocessing is a main step in NLP projects, Steps I did are
 ####                                  1)Converting the message into lower case.
 ####                                  2)Avoiding punctuation character and stopwords which might be present in the messages.
 ####                                  3)Now the final part comes which is vectorization , we are achieving this using tf-idf vectorizer provided by sklearn.
