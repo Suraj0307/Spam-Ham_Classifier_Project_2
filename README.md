@@ -4,14 +4,14 @@ The increased number of unsolicited emails known as spam has necessitated the de
 # Approach
 The main goal is to predict the fares of the flights based on different factors available in the dataset.
 Data Collection : The data is collected from UCI .
-                  The data has 4 columns V1,V2,V3,V4
-                  V1 tells us the message type and V2 column is for message while V3 and V4 are not important.
-                  Link: https://archive.ics.uci.edu/ml/datasets/sms+spam+collection  
+####                  The data has 4 columns V1,V2,V3,V4
+ ####                 V1 tells us the message type and V2 column is for message while V3 and V4 are not important.
+####                  Link: https://archive.ics.uci.edu/ml/datasets/sms+spam+collection  
 
 Text pre-processing in V2 Columns: Text Preprocessing is a main step in NLP projects, Steps I did are
-                                  1)Converting the message into lower case.
-                                  2)Avoiding punctuation character and stopwords which might be present in the messages.
-                                  3)Now the final part comes which is vectorization , we are achieving this using tf-idf vectorizer provided by sklearn.
+####                                  1)Converting the message into lower case.
+####                                  2)Avoiding punctuation character and stopwords which might be present in the messages.
+####                                  3)Now the final part comes which is vectorization , we are achieving this using tf-idf vectorizer provided by sklearn.
 
                                    
 
@@ -25,8 +25,8 @@ Webpage:Inside the webpage you will be able to see a big white box.There u have 
 Message type will be shown at the bottom of webpage.
 
 # Project Interface
-I have deployed this model to Amazon Web Services (AWS)
-Link:http://ec2-3-140-241-66.us-east-2.compute.amazonaws.com:5000/
+#### I have deployed this model to Amazon Web Services (AWS)
+#### Link:http://ec2-3-140-241-66.us-east-2.compute.amazonaws.com:5000/
 ##### User Interface
 ![ec2-3-140-241-66 us-east-2 compute amazonaws com_5000_](https://user-images.githubusercontent.com/90147205/149150718-6e0ccdb7-18e3-4a83-ab32-934bcf91eb16.png)
 
