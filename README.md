@@ -3,7 +3,7 @@ The increased number of unsolicited emails known as spam has necessitated the de
 
 
 # Approach
-The main goal is to predict the fares of the flights based on different factors available in the dataset.
+The main goal is to classify the message type as Spam or Ham.
 
 ## Data Collection :
 ####                The data is collected from UCI .
@@ -27,9 +27,11 @@ Model Creation is a crucial part of Machine learning project.Firstly I experimen
 SVC,RandomForestClassifier,XGBClassifier, Multinomial Naive Bayes and upon experimenting i obtain that MNB is performing better than other classifiers
                 
 
-## Model Saving: I saved my model using pickle as model.pickle
+## Model Saving:
+I saved my model using pickle as model.pickle
 
-## Webpage:Inside the webpage you will be able to see a big white box.There u have to type the message and then click on Predict button.
+## Webpage:
+Inside the webpage you will be able to see a big white box.There u have to type the message and then click on Predict button.
 Message type will be shown at the bottom of webpage.
 
 # Project Interface
