@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        SPAM/HAM CLASSIFIER
+    </title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+<body>
+<div class="container">
+    <form action="/" method="POST">
+        <h1>Spam/Ham Classifier</h1>
+        <h4>Enter message here</h4>
+        <textarea name="message" rows="5" cols="20"
+                  style="margin-bottom: 18px; width: 700px; height: 250px;"></textarea>
+        <input type="submit" class="button" value="Predict">
+    </form>
+</div>
+
+{% if prediction %}
+<p>{{ prediction }}</p>
+{% endif %}
+
+</body>
+</html>
